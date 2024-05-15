@@ -342,6 +342,7 @@ img:hover {
 
 .rodape__lista {
     width: 135px;
+    margin-bottom: 18px;
 }
 
 .rodape__titulo {
@@ -351,6 +352,7 @@ img:hover {
 
 .rodape__logo {
     font-size: 12px;
+    margin-bottom: 18px;
 }
 
 .rodape__logo h4 {

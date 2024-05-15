@@ -41,7 +41,7 @@
 
 .eventos__item {
     flex-grow: 1;
-    max-width: 312px;
+    max-width: 400px;
 }
 
 /* Agenda */
@@ -49,14 +49,26 @@
 .agenda__lista {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 1.5rem;
     row-gap: 1rem;
+    column-gap: 1.5rem;
     justify-content: center;
 }
 
 .agenda__item {
     flex-grow: 1;
-    max-width: 259px;
+    max-width: 380px;
+}
+
+/* Rodape */
+
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodape__logo {
+    align-self: end;
 }
 
 @media screen and (min-width: 720px) {
@@ -85,8 +97,8 @@
 
     .agenda__lista {
         row-gap: 2rem;
+        justify-content: end;
     }
-    
 }
 
 @media screen and (min-width: 1440px) {
@@ -117,4 +129,5 @@
     .menu__item:nth-child(5) {
         order: 2;
     }
+
 }
